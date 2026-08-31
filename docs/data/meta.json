@@ -1,0 +1,7720 @@
+{
+  "generatedAt": "2026-08-31T14:53:08.000Z",
+  "bbox": [
+    30.277846,
+    50.225754,
+    30.77253,
+    50.567186
+  ],
+  "badgeBands": [
+    [
+      13,
+      13.6
+    ],
+    [
+      13.6,
+      14.4
+    ],
+    [
+      14.4,
+      15.5
+    ],
+    [
+      15.5,
+      16.8
+    ],
+    [
+      16.8,
+      22
+    ]
+  ],
+  "modes": [
+    {
+      "mode": "bus",
+      "label": "buses & trolleybuses",
+      "color": "#0059a9"
+    },
+    {
+      "mode": "tram",
+      "label": "trams",
+      "color": "#d6212b"
+    }
+  ],
+  "lines": [
+    {
+      "line": "2",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 39,
+          "stops": 5,
+          "lengthKm": 15.81,
+          "stats": {
+            "observations": 365,
+            "matched": 365,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.752421665263766,
+            "roundaboutSegs": 2,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 39,
+          "stops": 5,
+          "lengthKm": 13.15,
+          "stats": {
+            "observations": 208,
+            "matched": 208,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.87020226598618,
+            "roundaboutSegs": 7,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "4т",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 24,
+          "stops": 4,
+          "lengthKm": 8.03,
+          "stats": {
+            "observations": 228,
+            "matched": 228,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 527,
+            "meanError": 8.85268867645038,
+            "roundaboutSegs": 10,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 26,
+          "stops": 4,
+          "lengthKm": 7.31,
+          "stats": {
+            "observations": 234,
+            "matched": 234,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.659889719969112,
+            "roundaboutSegs": 25,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "5",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 20,
+          "stops": 6,
+          "lengthKm": 6.57,
+          "stats": {
+            "observations": 191,
+            "matched": 191,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.482263484630866,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 20,
+          "stops": 5,
+          "lengthKm": 6.94,
+          "stats": {
+            "observations": 179,
+            "matched": 179,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.19693200515282,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "5т",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 69,
+          "stops": 5,
+          "lengthKm": 11.63,
+          "stats": {
+            "observations": 175,
+            "matched": 175,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 10.73607577117037,
+            "roundaboutSegs": 20,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 69,
+          "stops": 5,
+          "lengthKm": 11.53,
+          "stats": {
+            "observations": 237,
+            "matched": 237,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.525174686209568,
+            "roundaboutSegs": 10,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "6",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 37,
+          "stops": 7,
+          "lengthKm": 16.36,
+          "stats": {
+            "observations": 449,
+            "matched": 449,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.743405862589517,
+            "roundaboutSegs": 18,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 36,
+          "stops": 7,
+          "lengthKm": 17.39,
+          "stats": {
+            "observations": 392,
+            "matched": 392,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.50155018021167,
+            "roundaboutSegs": 16,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "7",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 46,
+          "stops": 3,
+          "lengthKm": 2.34,
+          "stats": {
+            "observations": 102,
+            "matched": 102,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.121702203843636,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 48,
+          "stops": 3,
+          "lengthKm": 3.08,
+          "stats": {
+            "observations": 112,
+            "matched": 112,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.092477474165223,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "9",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 37,
+          "stops": 4,
+          "lengthKm": 13.73,
+          "stats": {
+            "observations": 349,
+            "matched": 349,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.624780816591097,
+            "roundaboutSegs": 15,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 38,
+          "stops": 4,
+          "lengthKm": 14.79,
+          "stats": {
+            "observations": 328,
+            "matched": 328,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.9025123153928383,
+            "roundaboutSegs": 8,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "10",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 30,
+          "stops": 2,
+          "lengthKm": 8.88,
+          "stats": {
+            "observations": 74,
+            "matched": 74,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.61941449930358,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 28,
+          "stops": 2,
+          "lengthKm": 7.51,
+          "stats": {
+            "observations": 93,
+            "matched": 93,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.2914152450593206,
+            "roundaboutSegs": 13,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "11",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 96,
+          "stops": 3,
+          "lengthKm": 3.42,
+          "stats": {
+            "observations": 30,
+            "matched": 30,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.913398199992736,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 98,
+          "stops": 3,
+          "lengthKm": 4.48,
+          "stats": {
+            "observations": 128,
+            "matched": 128,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.000985577543011,
+            "roundaboutSegs": 17,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "11д",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 12,
+          "stops": 4,
+          "lengthKm": 6.8,
+          "stats": {
+            "observations": 152,
+            "matched": 152,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.530241943758713,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 12,
+          "stops": 4,
+          "lengthKm": 8.45,
+          "stats": {
+            "observations": 298,
+            "matched": 298,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 9.368259776815771,
+            "roundaboutSegs": 12,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "12",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 52,
+          "stops": 4,
+          "lengthKm": 7.61,
+          "stats": {
+            "observations": 318,
+            "matched": 318,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.633421691760311,
+            "roundaboutSegs": 13,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 52,
+          "stops": 4,
+          "lengthKm": 6.91,
+          "stats": {
+            "observations": 293,
+            "matched": 293,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.472720759537912,
+            "roundaboutSegs": 14,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "14",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 40,
+          "stops": 4,
+          "lengthKm": 7.79,
+          "stats": {
+            "observations": 370,
+            "matched": 370,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.569897586355917,
+            "roundaboutSegs": 9,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 40,
+          "stops": 3,
+          "lengthKm": 6.32,
+          "stats": {
+            "observations": 264,
+            "matched": 264,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.003851734405871,
+            "roundaboutSegs": 4,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "17",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 76,
+          "stops": 3,
+          "lengthKm": 3.79,
+          "stats": {
+            "observations": 155,
+            "matched": 155,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.151370782687626,
+            "roundaboutSegs": 14,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 79,
+          "stops": 3,
+          "lengthKm": 3.33,
+          "stats": {
+            "observations": 112,
+            "matched": 112,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.755345792097553,
+            "roundaboutSegs": 19,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "18",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 79,
+          "stops": 3,
+          "lengthKm": 3.12,
+          "stats": {
+            "observations": 138,
+            "matched": 138,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.4835558934315785,
+            "roundaboutSegs": 14,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 77,
+          "stops": 3,
+          "lengthKm": 4.07,
+          "stats": {
+            "observations": 137,
+            "matched": 137,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.101431421259058,
+            "roundaboutSegs": 8,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "19",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 42,
+          "stops": 3,
+          "lengthKm": 5.97,
+          "stats": {
+            "observations": 265,
+            "matched": 265,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.267224334487968,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 42,
+          "stops": 3,
+          "lengthKm": 5.88,
+          "stats": {
+            "observations": 290,
+            "matched": 290,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.7610442045816996,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "20",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 80,
+          "stops": 5,
+          "lengthKm": 11.01,
+          "stats": {
+            "observations": 374,
+            "matched": 374,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.00090150006363,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 83,
+          "stops": 4,
+          "lengthKm": 12.22,
+          "stats": {
+            "observations": 456,
+            "matched": 456,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.090065634881191,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "21",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 100,
+          "stops": 6,
+          "lengthKm": 12.79,
+          "stats": {
+            "observations": 446,
+            "matched": 446,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.06738768697952,
+            "roundaboutSegs": 10,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 100,
+          "stops": 6,
+          "lengthKm": 12.49,
+          "stats": {
+            "observations": 449,
+            "matched": 449,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.8736728390030533,
+            "roundaboutSegs": 2,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "22",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 97,
+          "stops": 5,
+          "lengthKm": 19.04,
+          "stats": {
+            "observations": 293,
+            "matched": 293,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.040079743936793,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 98,
+          "stops": 5,
+          "lengthKm": 19.79,
+          "stats": {
+            "observations": 401,
+            "matched": 401,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.596043489250694,
+            "roundaboutSegs": 1,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "22тк",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 108,
+          "stops": 3,
+          "lengthKm": 5.72,
+          "stats": {
+            "observations": 80,
+            "matched": 80,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.079099993486204,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 107,
+          "stops": 3,
+          "lengthKm": 4.97,
+          "stats": {
+            "observations": 80,
+            "matched": 80,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.763310053022573,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "23",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 52,
+          "stops": 4,
+          "lengthKm": 13.29,
+          "stats": {
+            "observations": 341,
+            "matched": 341,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.2619497630845,
+            "roundaboutSegs": 7,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 53,
+          "stops": 4,
+          "lengthKm": 12.78,
+          "stats": {
+            "observations": 366,
+            "matched": 366,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.9447575576489933,
+            "roundaboutSegs": 9,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "24",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 35,
+          "stops": 5,
+          "lengthKm": 6.83,
+          "stats": {
+            "observations": 156,
+            "matched": 156,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.212325445630428,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 35,
+          "stops": 4,
+          "lengthKm": 6.89,
+          "stats": {
+            "observations": 167,
+            "matched": 167,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.891165155767481,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "25",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 57,
+          "stops": 5,
+          "lengthKm": 18.56,
+          "stats": {
+            "observations": 351,
+            "matched": 351,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.996930882144144,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 60,
+          "stops": 5,
+          "lengthKm": 18.68,
+          "stats": {
+            "observations": 492,
+            "matched": 492,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.770630954564254,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "27",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 45,
+          "stops": 4,
+          "lengthKm": 9.11,
+          "stats": {
+            "observations": 337,
+            "matched": 337,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.5439122483748315,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 45,
+          "stops": 4,
+          "lengthKm": 9.81,
+          "stats": {
+            "observations": 346,
+            "matched": 346,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.506157853878043,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "28",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 54,
+          "stops": 2,
+          "lengthKm": 2.69,
+          "stats": {
+            "observations": 119,
+            "matched": 119,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.606422066773196,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 56,
+          "stops": 2,
+          "lengthKm": 4.12,
+          "stats": {
+            "observations": 176,
+            "matched": 176,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.343001591700946,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "28т",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 128,
+          "stops": 4,
+          "lengthKm": 13.35,
+          "stats": {
+            "observations": 261,
+            "matched": 261,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.979411623716537,
+            "roundaboutSegs": 2,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 124,
+          "stops": 4,
+          "lengthKm": 13.9,
+          "stats": {
+            "observations": 304,
+            "matched": 304,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.103610358708209,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "30",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 58,
+          "stops": 6,
+          "lengthKm": 15.41,
+          "stats": {
+            "observations": 486,
+            "matched": 486,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.347426755741418,
+            "roundaboutSegs": 20,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 55,
+          "stops": 5,
+          "lengthKm": 11.06,
+          "stats": {
+            "observations": 366,
+            "matched": 366,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.645437683159097,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "31",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 67,
+          "stops": 3,
+          "lengthKm": 5.13,
+          "stats": {
+            "observations": 152,
+            "matched": 152,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.689494734816226,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 67,
+          "stops": 3,
+          "lengthKm": 6.25,
+          "stats": {
+            "observations": 198,
+            "matched": 198,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.373437989191688,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "32",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 53,
+          "stops": 5,
+          "lengthKm": 13.21,
+          "stats": {
+            "observations": 496,
+            "matched": 496,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.7887815544390433,
+            "roundaboutSegs": 5,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 54,
+          "stops": 5,
+          "lengthKm": 13.03,
+          "stats": {
+            "observations": 207,
+            "matched": 207,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.096867261957439,
+            "roundaboutSegs": 36,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "33",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 54,
+          "stops": 3,
+          "lengthKm": 3.97,
+          "stats": {
+            "observations": 181,
+            "matched": 181,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.293294004024704,
+            "roundaboutSegs": 33,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 51,
+          "stops": 3,
+          "lengthKm": 5.14,
+          "stats": {
+            "observations": 159,
+            "matched": 159,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.092272667312201,
+            "roundaboutSegs": 28,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "33т",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 70,
+          "stops": 3,
+          "lengthKm": 7.11,
+          "stats": {
+            "observations": 90,
+            "matched": 90,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.155142785805277,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 69,
+          "stops": 3,
+          "lengthKm": 8.06,
+          "stats": {
+            "observations": 138,
+            "matched": 138,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.346040178150034,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "35",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 59,
+          "stops": 5,
+          "lengthKm": 10.54,
+          "stats": {
+            "observations": 438,
+            "matched": 438,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.707207044203561,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 60,
+          "stops": 6,
+          "lengthKm": 10.12,
+          "stats": {
+            "observations": 311,
+            "matched": 311,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.032181387785062,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "35к",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 41,
+          "stops": 2,
+          "lengthKm": 2.74,
+          "stats": {
+            "observations": 137,
+            "matched": 137,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.041442432132616,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 41,
+          "stops": 3,
+          "lengthKm": 2.69,
+          "stats": {
+            "observations": 135,
+            "matched": 135,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.0355593180836173,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "35т",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 119,
+          "stops": 3,
+          "lengthKm": 9.26,
+          "stats": {
+            "observations": 120,
+            "matched": 120,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.4189167338186675,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 113,
+          "stops": 3,
+          "lengthKm": 11.25,
+          "stats": {
+            "observations": 174,
+            "matched": 174,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.072817421846996,
+            "roundaboutSegs": 27,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "36",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 42,
+          "stops": 2,
+          "lengthKm": 5.12,
+          "stats": {
+            "observations": 180,
+            "matched": 180,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 8.02899173968555,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 44,
+          "stops": 2,
+          "lengthKm": 4.21,
+          "stats": {
+            "observations": 180,
+            "matched": 180,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.9532828729085785,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "36тр",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 44,
+          "stops": 8,
+          "lengthKm": 21.92,
+          "stats": {
+            "observations": 465,
+            "matched": 465,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.528451896549417,
+            "roundaboutSegs": 55,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 46,
+          "stops": 8,
+          "lengthKm": 21.28,
+          "stats": {
+            "observations": 367,
+            "matched": 367,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.599462653403194,
+            "roundaboutSegs": 91,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "37",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 74,
+          "stops": 5,
+          "lengthKm": 10.59,
+          "stats": {
+            "observations": 147,
+            "matched": 147,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 11.32135847437745,
+            "roundaboutSegs": 10,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 73,
+          "stops": 5,
+          "lengthKm": 11.22,
+          "stats": {
+            "observations": 219,
+            "matched": 219,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 9.892554839987953,
+            "roundaboutSegs": 11,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "37а",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 49,
+          "stops": 4,
+          "lengthKm": 7.8,
+          "stats": {
+            "observations": 99,
+            "matched": 99,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 8.911972677152727,
+            "roundaboutSegs": 14,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 49,
+          "stops": 4,
+          "lengthKm": 7.97,
+          "stats": {
+            "observations": 112,
+            "matched": 112,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 20,
+            "meanError": 6.761977277693908,
+            "roundaboutSegs": 13,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "37Д",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 65,
+          "stops": 5,
+          "lengthKm": 13.11,
+          "stats": {
+            "observations": 213,
+            "matched": 213,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.935541652188943,
+            "roundaboutSegs": 47,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 62,
+          "stops": 5,
+          "lengthKm": 12.17,
+          "stats": {
+            "observations": 228,
+            "matched": 228,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.683654139631519,
+            "roundaboutSegs": 29,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "38",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 85,
+          "stops": 5,
+          "lengthKm": 10.29,
+          "stats": {
+            "observations": 157,
+            "matched": 157,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.298642788980628,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 89,
+          "stops": 5,
+          "lengthKm": 12.56,
+          "stats": {
+            "observations": 166,
+            "matched": 166,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.1596488439814205,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "39",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 30,
+          "stops": 4,
+          "lengthKm": 5.81,
+          "stats": {
+            "observations": 230,
+            "matched": 230,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.8557257869457136,
+            "roundaboutSegs": 28,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 32,
+          "stops": 3,
+          "lengthKm": 3.91,
+          "stats": {
+            "observations": 195,
+            "matched": 195,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.5505313416682935,
+            "roundaboutSegs": 30,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "40",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 39,
+          "stops": 3,
+          "lengthKm": 10.39,
+          "stats": {
+            "observations": 82,
+            "matched": 82,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 20,
+            "meanError": 8.461043106790134,
+            "roundaboutSegs": 44,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 37,
+          "stops": 3,
+          "lengthKm": 11.27,
+          "stats": {
+            "observations": 81,
+            "matched": 81,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 8.728280883950726,
+            "roundaboutSegs": 17,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "41",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 34,
+          "stops": 3,
+          "lengthKm": 14.96,
+          "stats": {
+            "observations": 439,
+            "matched": 439,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.488023677183195,
+            "roundaboutSegs": 48,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 31,
+          "stops": 3,
+          "lengthKm": 9.53,
+          "stats": {
+            "observations": 324,
+            "matched": 324,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.182102065526246,
+            "roundaboutSegs": 11,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "42",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 61,
+          "stops": 7,
+          "lengthKm": 15.4,
+          "stats": {
+            "observations": 585,
+            "matched": 585,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.165719692211499,
+            "roundaboutSegs": 24,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 60,
+          "stops": 7,
+          "lengthKm": 16.21,
+          "stats": {
+            "observations": 580,
+            "matched": 580,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.800128062790086,
+            "roundaboutSegs": 54,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "43",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 47,
+          "stops": 5,
+          "lengthKm": 22.72,
+          "stats": {
+            "observations": 600,
+            "matched": 600,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.614655397554754,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 47,
+          "stops": 4,
+          "lengthKm": 21.43,
+          "stats": {
+            "observations": 351,
+            "matched": 351,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.035710786484629,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "43к",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 49,
+          "stops": 4,
+          "lengthKm": 13.81,
+          "stats": {
+            "observations": 171,
+            "matched": 171,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.81651102323185,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 47,
+          "stops": 3,
+          "lengthKm": 12.28,
+          "stats": {
+            "observations": 193,
+            "matched": 193,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.064110026716805,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "44",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 61,
+          "stops": 6,
+          "lengthKm": 18.91,
+          "stats": {
+            "observations": 492,
+            "matched": 492,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.316535250895197,
+            "roundaboutSegs": 20,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 63,
+          "stops": 6,
+          "lengthKm": 20.47,
+          "stats": {
+            "observations": 582,
+            "matched": 582,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.750479327257482,
+            "roundaboutSegs": 46,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "45",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 60,
+          "stops": 5,
+          "lengthKm": 13.89,
+          "stats": {
+            "observations": 520,
+            "matched": 520,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.214271279148745,
+            "roundaboutSegs": 9,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 58,
+          "stops": 6,
+          "lengthKm": 12.01,
+          "stats": {
+            "observations": 417,
+            "matched": 417,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.5352983457394958,
+            "roundaboutSegs": 1,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "46",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 76,
+          "stops": 3,
+          "lengthKm": 6.84,
+          "stats": {
+            "observations": 256,
+            "matched": 256,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.517124716979322,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 76,
+          "stops": 4,
+          "lengthKm": 8.33,
+          "stats": {
+            "observations": 338,
+            "matched": 338,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.26297536288947,
+            "roundaboutSegs": 16,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "47",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 38,
+          "stops": 4,
+          "lengthKm": 7.27,
+          "stats": {
+            "observations": 294,
+            "matched": 294,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.549379144374731,
+            "roundaboutSegs": 22,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 38,
+          "stops": 5,
+          "lengthKm": 6.85,
+          "stats": {
+            "observations": 193,
+            "matched": 193,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.278152648238371,
+            "roundaboutSegs": 6,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "48",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 88,
+          "stops": 3,
+          "lengthKm": 3.47,
+          "stats": {
+            "observations": 118,
+            "matched": 118,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.782639141691824,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 88,
+          "stops": 3,
+          "lengthKm": 3.59,
+          "stats": {
+            "observations": 131,
+            "matched": 131,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.626050103723105,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "49",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 64,
+          "stops": 3,
+          "lengthKm": 6.61,
+          "stats": {
+            "observations": 193,
+            "matched": 193,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 20,
+            "meanError": 3.0310944200843615,
+            "roundaboutSegs": 8,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 64,
+          "stops": 3,
+          "lengthKm": 8.05,
+          "stats": {
+            "observations": 150,
+            "matched": 150,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.753121908219697,
+            "roundaboutSegs": 19,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "50",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 57,
+          "stops": 5,
+          "lengthKm": 16.32,
+          "stats": {
+            "observations": 266,
+            "matched": 266,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.426421862466273,
+            "roundaboutSegs": 15,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 57,
+          "stops": 5,
+          "lengthKm": 16.77,
+          "stats": {
+            "observations": 235,
+            "matched": 235,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 351,
+            "meanError": 5.950264207095087,
+            "roundaboutSegs": 25,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "51",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 57,
+          "stops": 8,
+          "lengthKm": 17,
+          "stats": {
+            "observations": 551,
+            "matched": 551,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.535764494827649,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 59,
+          "stops": 7,
+          "lengthKm": 19.48,
+          "stats": {
+            "observations": 525,
+            "matched": 525,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.413708784294666,
+            "roundaboutSegs": 1,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "52",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 35,
+          "stops": 4,
+          "lengthKm": 8.8,
+          "stats": {
+            "observations": 387,
+            "matched": 387,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.817537390984716,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 32,
+          "stops": 3,
+          "lengthKm": 9.69,
+          "stats": {
+            "observations": 378,
+            "matched": 378,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.564839025159309,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "53",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 52,
+          "stops": 3,
+          "lengthKm": 6.6,
+          "stats": {
+            "observations": 330,
+            "matched": 330,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.7082750507695335,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 51,
+          "stops": 3,
+          "lengthKm": 6.56,
+          "stats": {
+            "observations": 328,
+            "matched": 328,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.161778233177816,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "54",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 56,
+          "stops": 4,
+          "lengthKm": 2.82,
+          "stats": {
+            "observations": 119,
+            "matched": 119,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.451677957669902,
+            "roundaboutSegs": 3,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 56,
+          "stops": 2,
+          "lengthKm": 2.71,
+          "stats": {
+            "observations": 133,
+            "matched": 133,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.916472556047338,
+            "roundaboutSegs": 19,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "55",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 78,
+          "stops": 6,
+          "lengthKm": 11.75,
+          "stats": {
+            "observations": 456,
+            "matched": 456,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.418502274831226,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 78,
+          "stops": 6,
+          "lengthKm": 11.63,
+          "stats": {
+            "observations": 413,
+            "matched": 413,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.4359236915330227,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "56",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 77,
+          "stops": 5,
+          "lengthKm": 19.52,
+          "stats": {
+            "observations": 527,
+            "matched": 527,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.427427076985327,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 77,
+          "stops": 5,
+          "lengthKm": 19.41,
+          "stats": {
+            "observations": 502,
+            "matched": 502,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.091307428190952,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "57",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 55,
+          "stops": 5,
+          "lengthKm": 23.43,
+          "stats": {
+            "observations": 187,
+            "matched": 187,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 12.059412714787952,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 55,
+          "stops": 5,
+          "lengthKm": 22.83,
+          "stats": {
+            "observations": 187,
+            "matched": 187,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 10.471528894557073,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "58",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 54,
+          "stops": 2,
+          "lengthKm": 6.23,
+          "stats": {
+            "observations": 104,
+            "matched": 104,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.6213455093448434,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 54,
+          "stops": 3,
+          "lengthKm": 6.04,
+          "stats": {
+            "observations": 113,
+            "matched": 113,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.999950645281143,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "62",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 49,
+          "stops": 6,
+          "lengthKm": 10.2,
+          "stats": {
+            "observations": 380,
+            "matched": 380,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.450294253046495,
+            "roundaboutSegs": 3,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 52,
+          "stops": 7,
+          "lengthKm": 10.29,
+          "stats": {
+            "observations": 332,
+            "matched": 332,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.3654892395313474,
+            "roundaboutSegs": 4,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "63",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 63,
+          "stops": 6,
+          "lengthKm": 16.99,
+          "stats": {
+            "observations": 292,
+            "matched": 292,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.3885693595192565,
+            "roundaboutSegs": 24,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 61,
+          "stops": 6,
+          "lengthKm": 15.59,
+          "stats": {
+            "observations": 253,
+            "matched": 253,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.6814847836426474,
+            "roundaboutSegs": 40,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "69",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 65,
+          "stops": 5,
+          "lengthKm": 16.89,
+          "stats": {
+            "observations": 479,
+            "matched": 479,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.698432027466496,
+            "roundaboutSegs": 24,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 68,
+          "stops": 5,
+          "lengthKm": 15.86,
+          "stats": {
+            "observations": 579,
+            "matched": 579,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.074141736316939,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "70Д",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 45,
+          "stops": 5,
+          "lengthKm": 8.88,
+          "stats": {
+            "observations": 238,
+            "matched": 238,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.167768578548069,
+            "roundaboutSegs": 25,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 42,
+          "stops": 5,
+          "lengthKm": 11.79,
+          "stats": {
+            "observations": 304,
+            "matched": 304,
+            "noCandidates": 0,
+            "viterbiBreaks": 2,
+            "bridged": 0,
+            "rawStretchCount": 2,
+            "rawMeters": 40,
+            "meanError": 7.31141715204978,
+            "roundaboutSegs": 25,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "72",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 58,
+          "stops": 4,
+          "lengthKm": 12.37,
+          "stats": {
+            "observations": 564,
+            "matched": 564,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.8318731932132057,
+            "roundaboutSegs": 25,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 58,
+          "stops": 4,
+          "lengthKm": 11.24,
+          "stats": {
+            "observations": 439,
+            "matched": 439,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.109276249826404,
+            "roundaboutSegs": 22,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "73",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 64,
+          "stops": 5,
+          "lengthKm": 15.33,
+          "stats": {
+            "observations": 370,
+            "matched": 370,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.820653353776211,
+            "roundaboutSegs": 17,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 64,
+          "stops": 7,
+          "lengthKm": 15.97,
+          "stats": {
+            "observations": 449,
+            "matched": 449,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.733114204274473,
+            "roundaboutSegs": 49,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "74",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 43,
+          "stops": 2,
+          "lengthKm": 6.12,
+          "stats": {
+            "observations": 272,
+            "matched": 272,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.7900252128026124,
+            "roundaboutSegs": 0,
+            "extStart": 70,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 43,
+          "stops": 3,
+          "lengthKm": 6.22,
+          "stats": {
+            "observations": 267,
+            "matched": 267,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.609063474357969,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "75",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 28,
+          "stops": 3,
+          "lengthKm": 10.75,
+          "stats": {
+            "observations": 371,
+            "matched": 371,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.6130795976366405,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 26,
+          "stops": 3,
+          "lengthKm": 7.11,
+          "stats": {
+            "observations": 198,
+            "matched": 198,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.578837369090554,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "77",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 32,
+          "stops": 4,
+          "lengthKm": 2.59,
+          "stats": {
+            "observations": 111,
+            "matched": 111,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.333141189251739,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 32,
+          "stops": 3,
+          "lengthKm": 2.54,
+          "stats": {
+            "observations": 59,
+            "matched": 59,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 8.302190203362592,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "78",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 25,
+          "stops": 5,
+          "lengthKm": 15.53,
+          "stats": {
+            "observations": 453,
+            "matched": 453,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.78869627126416,
+            "roundaboutSegs": 5,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 25,
+          "stops": 6,
+          "lengthKm": 10.42,
+          "stats": {
+            "observations": 424,
+            "matched": 424,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.763593196543772,
+            "roundaboutSegs": 9,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "79",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 33,
+          "stops": 3,
+          "lengthKm": 11.52,
+          "stats": {
+            "observations": 114,
+            "matched": 114,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.5455815900410625,
+            "roundaboutSegs": 16,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 33,
+          "stops": 3,
+          "lengthKm": 12.41,
+          "stats": {
+            "observations": 174,
+            "matched": 174,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.582743251335429,
+            "roundaboutSegs": 46,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "81",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 72,
+          "stops": 3,
+          "lengthKm": 3.98,
+          "stats": {
+            "observations": 125,
+            "matched": 125,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.138993059172252,
+            "roundaboutSegs": 20,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 69,
+          "stops": 3,
+          "lengthKm": 3.21,
+          "stats": {
+            "observations": 102,
+            "matched": 102,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 9.36609265568231,
+            "roundaboutSegs": 7,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "87",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 48,
+          "stops": 5,
+          "lengthKm": 10.38,
+          "stats": {
+            "observations": 386,
+            "matched": 386,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.075839253663367,
+            "roundaboutSegs": 38,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 49,
+          "stops": 6,
+          "lengthKm": 10.78,
+          "stats": {
+            "observations": 352,
+            "matched": 352,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.8221736568718474,
+            "roundaboutSegs": 59,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "90",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 52,
+          "stops": 5,
+          "lengthKm": 15.28,
+          "stats": {
+            "observations": 397,
+            "matched": 397,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.363554057293628,
+            "roundaboutSegs": 53,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 52,
+          "stops": 4,
+          "lengthKm": 11.28,
+          "stats": {
+            "observations": 361,
+            "matched": 361,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.591909258153151,
+            "roundaboutSegs": 30,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "90к",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 21,
+          "stops": 3,
+          "lengthKm": 6.42,
+          "stats": {
+            "observations": 48,
+            "matched": 48,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.841154936506334,
+            "roundaboutSegs": 2,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 21,
+          "stops": 3,
+          "lengthKm": 4.49,
+          "stats": {
+            "observations": 45,
+            "matched": 45,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.517908195308775,
+            "roundaboutSegs": 12,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "91",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 58,
+          "stops": 4,
+          "lengthKm": 12.99,
+          "stats": {
+            "observations": 356,
+            "matched": 356,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.0355870647137815,
+            "roundaboutSegs": 3,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 58,
+          "stops": 4,
+          "lengthKm": 12.41,
+          "stats": {
+            "observations": 329,
+            "matched": 329,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.993339788614765,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "95",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 62,
+          "stops": 5,
+          "lengthKm": 10.17,
+          "stats": {
+            "observations": 310,
+            "matched": 310,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 20,
+            "meanError": 3.835328489813047,
+            "roundaboutSegs": 62,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 60,
+          "stops": 5,
+          "lengthKm": 9.02,
+          "stats": {
+            "observations": 313,
+            "matched": 313,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.725906727310769,
+            "roundaboutSegs": 27,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "97",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 39,
+          "stops": 4,
+          "lengthKm": 8.02,
+          "stats": {
+            "observations": 255,
+            "matched": 255,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.8585747153399987,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 38,
+          "stops": 4,
+          "lengthKm": 7.31,
+          "stats": {
+            "observations": 175,
+            "matched": 175,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.88605122757518,
+            "roundaboutSegs": 23,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "97к",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 49,
+          "stops": 3,
+          "lengthKm": 6.73,
+          "stats": {
+            "observations": 267,
+            "matched": 267,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.6638712203296735,
+            "roundaboutSegs": 8,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 46,
+          "stops": 3,
+          "lengthKm": 6.1,
+          "stats": {
+            "observations": 216,
+            "matched": 216,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.4394783929225214,
+            "roundaboutSegs": 20,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "98",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 30,
+          "stops": 6,
+          "lengthKm": 8.83,
+          "stats": {
+            "observations": 223,
+            "matched": 223,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.14599786040195,
+            "roundaboutSegs": 21,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 30,
+          "stops": 5,
+          "lengthKm": 8.7,
+          "stats": {
+            "observations": 177,
+            "matched": 177,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.563317486146527,
+            "roundaboutSegs": 10,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "99",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 191,
+          "stops": 4,
+          "lengthKm": 6.19,
+          "stats": {
+            "observations": 217,
+            "matched": 217,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 20,
+            "meanError": 3.6247102817203176,
+            "roundaboutSegs": 26,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 199,
+          "stops": 5,
+          "lengthKm": 6.53,
+          "stats": {
+            "observations": 196,
+            "matched": 196,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 20,
+            "meanError": 5.520818457036128,
+            "roundaboutSegs": 60,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "101",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 79,
+          "stops": 7,
+          "lengthKm": 15.57,
+          "stats": {
+            "observations": 465,
+            "matched": 465,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.5086410777051915,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 89,
+          "stops": 6,
+          "lengthKm": 14.5,
+          "stats": {
+            "observations": 463,
+            "matched": 463,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.131115002863897,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "102А",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 84,
+          "stops": 4,
+          "lengthKm": 11.22,
+          "stats": {
+            "observations": 227,
+            "matched": 227,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.037413151203025,
+            "roundaboutSegs": 62,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 82,
+          "stops": 5,
+          "lengthKm": 11.43,
+          "stats": {
+            "observations": 268,
+            "matched": 268,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.384776438946788,
+            "roundaboutSegs": 26,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "103",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 46,
+          "stops": 3,
+          "lengthKm": 11.57,
+          "stats": {
+            "observations": 272,
+            "matched": 272,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.828972740290234,
+            "roundaboutSegs": 23,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 46,
+          "stops": 3,
+          "lengthKm": 11.92,
+          "stats": {
+            "observations": 248,
+            "matched": 248,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.603734887341213,
+            "roundaboutSegs": 50,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "104",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 88,
+          "stops": 4,
+          "lengthKm": 10.05,
+          "stats": {
+            "observations": 420,
+            "matched": 420,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.243923514359646,
+            "roundaboutSegs": 31,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 87,
+          "stops": 4,
+          "lengthKm": 10.26,
+          "stats": {
+            "observations": 377,
+            "matched": 377,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.324939992445268,
+            "roundaboutSegs": 17,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "105",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 3,
+          "stops": 2,
+          "lengthKm": 11.7,
+          "stats": {
+            "observations": 129,
+            "matched": 120,
+            "noCandidates": 9,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.389407690959403,
+            "roundaboutSegs": 9,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 3,
+          "stops": 3,
+          "lengthKm": 13.62,
+          "stats": {
+            "observations": 152,
+            "matched": 131,
+            "noCandidates": 21,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 722,
+            "meanError": 10.149428119210587,
+            "roundaboutSegs": 27,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "108",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 48,
+          "stops": 7,
+          "lengthKm": 15.07,
+          "stats": {
+            "observations": 435,
+            "matched": 435,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.8799001012486944,
+            "roundaboutSegs": 87,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 51,
+          "stops": 6,
+          "lengthKm": 14.46,
+          "stats": {
+            "observations": 318,
+            "matched": 318,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.331782625409208,
+            "roundaboutSegs": 17,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "109",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 50,
+          "stops": 4,
+          "lengthKm": 18.97,
+          "stats": {
+            "observations": 323,
+            "matched": 323,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.864631513694007,
+            "roundaboutSegs": 12,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 50,
+          "stops": 4,
+          "lengthKm": 18.84,
+          "stats": {
+            "observations": 344,
+            "matched": 344,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.420134849695694,
+            "roundaboutSegs": 21,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "110",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 71,
+          "stops": 5,
+          "lengthKm": 22.71,
+          "stats": {
+            "observations": 511,
+            "matched": 511,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.786767785063398,
+            "roundaboutSegs": 20,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 70,
+          "stops": 5,
+          "lengthKm": 20.2,
+          "stats": {
+            "observations": 491,
+            "matched": 489,
+            "noCandidates": 2,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 57,
+            "meanError": 4.98927240031973,
+            "roundaboutSegs": 27,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "111",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 51,
+          "stops": 4,
+          "lengthKm": 17.41,
+          "stats": {
+            "observations": 376,
+            "matched": 376,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.147748572833715,
+            "roundaboutSegs": 46,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 51,
+          "stops": 4,
+          "lengthKm": 16.18,
+          "stats": {
+            "observations": 366,
+            "matched": 364,
+            "noCandidates": 2,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 60,
+            "meanError": 5.603084277362975,
+            "roundaboutSegs": 37,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "112",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 57,
+          "stops": 5,
+          "lengthKm": 16.36,
+          "stats": {
+            "observations": 389,
+            "matched": 389,
+            "noCandidates": 0,
+            "viterbiBreaks": 3,
+            "bridged": 0,
+            "rawStretchCount": 3,
+            "rawMeters": 60,
+            "meanError": 9.748580120699353,
+            "roundaboutSegs": 24,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 57,
+          "stops": 5,
+          "lengthKm": 16.12,
+          "stats": {
+            "observations": 515,
+            "matched": 511,
+            "noCandidates": 4,
+            "viterbiBreaks": 3,
+            "bridged": 0,
+            "rawStretchCount": 4,
+            "rawMeters": 157,
+            "meanError": 6.535462520175388,
+            "roundaboutSegs": 25,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "114",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 123,
+          "stops": 6,
+          "lengthKm": 19.91,
+          "stats": {
+            "observations": 751,
+            "matched": 751,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.484107443908037,
+            "roundaboutSegs": 22,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 120,
+          "stops": 6,
+          "lengthKm": 19.99,
+          "stats": {
+            "observations": 776,
+            "matched": 776,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.7684269848978205,
+            "roundaboutSegs": 22,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "115",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 66,
+          "stops": 6,
+          "lengthKm": 17.38,
+          "stats": {
+            "observations": 550,
+            "matched": 550,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 20,
+            "meanError": 6.693654436453383,
+            "roundaboutSegs": 27,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 66,
+          "stops": 7,
+          "lengthKm": 15.61,
+          "stats": {
+            "observations": 508,
+            "matched": 508,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.465411773961965,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "118д",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 68,
+          "stops": 6,
+          "lengthKm": 18.85,
+          "stats": {
+            "observations": 184,
+            "matched": 184,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.766581788469198,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 68,
+          "stops": 7,
+          "lengthKm": 21.11,
+          "stats": {
+            "observations": 293,
+            "matched": 293,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.013502688690167,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "119",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 56,
+          "stops": 5,
+          "lengthKm": 19.17,
+          "stats": {
+            "observations": 458,
+            "matched": 458,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.474519020751627,
+            "roundaboutSegs": 23,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 56,
+          "stops": 5,
+          "lengthKm": 18.6,
+          "stats": {
+            "observations": 333,
+            "matched": 333,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.957045654921942,
+            "roundaboutSegs": 1,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "120",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 16,
+          "stops": 3,
+          "lengthKm": 7.15,
+          "stats": {
+            "observations": 196,
+            "matched": 196,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.8488801231594536,
+            "roundaboutSegs": 16,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 16,
+          "stops": 3,
+          "lengthKm": 8.17,
+          "stats": {
+            "observations": 288,
+            "matched": 288,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.5945377201159285,
+            "roundaboutSegs": 8,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "Тб1",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 13,
+          "tripCount": 99,
+          "stops": 2,
+          "lengthKm": 5.36,
+          "stats": {
+            "observations": 141,
+            "matched": 141,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.69509847859961,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 104,
+          "stops": 3,
+          "lengthKm": 4.73,
+          "stats": {
+            "observations": 121,
+            "matched": 121,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 8.118549538849763,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "1"
+    },
+    {
+      "line": "Тб3",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 17,
+          "tripCount": 93,
+          "stops": 5,
+          "lengthKm": 6.41,
+          "stats": {
+            "observations": 215,
+            "matched": 215,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.9072031835340395,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 93,
+          "stops": 4,
+          "lengthKm": 6.59,
+          "stats": {
+            "observations": 240,
+            "matched": 240,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.7295224485254095,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "3"
+    },
+    {
+      "line": "Тб4",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 31,
+          "tripCount": 88,
+          "stops": 6,
+          "lengthKm": 16.33,
+          "stats": {
+            "observations": 132,
+            "matched": 132,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.6403383680611103,
+            "roundaboutSegs": 25,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 87,
+          "stops": 6,
+          "lengthKm": 16.73,
+          "stats": {
+            "observations": 193,
+            "matched": 193,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.45997110852004,
+            "roundaboutSegs": 36,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "4"
+    },
+    {
+      "line": "Тб5",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 25,
+          "tripCount": 80,
+          "stops": 6,
+          "lengthKm": 13.73,
+          "stats": {
+            "observations": 212,
+            "matched": 212,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.320743662630635,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 78,
+          "stops": 6,
+          "lengthKm": 13.57,
+          "stats": {
+            "observations": 250,
+            "matched": 250,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.454174942607465,
+            "roundaboutSegs": 9,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "5"
+    },
+    {
+      "line": "Тб6",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 23,
+          "tripCount": 56,
+          "stops": 5,
+          "lengthKm": 12.86,
+          "stats": {
+            "observations": 377,
+            "matched": 377,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.354379181959195,
+            "roundaboutSegs": 3,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 61,
+          "stops": 6,
+          "lengthKm": 14.14,
+          "stats": {
+            "observations": 344,
+            "matched": 344,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 8.631506083854752,
+            "roundaboutSegs": 25,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "6"
+    },
+    {
+      "line": "Тб7",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 21,
+          "tripCount": 76,
+          "stops": 5,
+          "lengthKm": 13.32,
+          "stats": {
+            "observations": 168,
+            "matched": 168,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.879934556135053,
+            "roundaboutSegs": 9,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 77,
+          "stops": 5,
+          "lengthKm": 14.34,
+          "stats": {
+            "observations": 245,
+            "matched": 245,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.162795925330046,
+            "roundaboutSegs": 2,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "7"
+    },
+    {
+      "line": "Тб8",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 67,
+          "tripCount": 107,
+          "stops": 4,
+          "lengthKm": 7.07,
+          "stats": {
+            "observations": 147,
+            "matched": 147,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.603222040657395,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 101,
+          "stops": 4,
+          "lengthKm": 9.04,
+          "stats": {
+            "observations": 190,
+            "matched": 190,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.066146025807982,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "8"
+    },
+    {
+      "line": "Тб11",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 23,
+          "tripCount": 80,
+          "stops": 6,
+          "lengthKm": 13.71,
+          "stats": {
+            "observations": 272,
+            "matched": 272,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.214557242206599,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 82,
+          "stops": 4,
+          "lengthKm": 12.27,
+          "stats": {
+            "observations": 253,
+            "matched": 253,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.195239993002544,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "11"
+    },
+    {
+      "line": "Тб12",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 87,
+          "tripCount": 87,
+          "stops": 8,
+          "lengthKm": 17.32,
+          "stats": {
+            "observations": 256,
+            "matched": 256,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.843322945196353,
+            "roundaboutSegs": 2,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 76,
+          "stops": 8,
+          "lengthKm": 16.43,
+          "stats": {
+            "observations": 387,
+            "matched": 387,
+            "noCandidates": 0,
+            "viterbiBreaks": 2,
+            "bridged": 0,
+            "rawStretchCount": 2,
+            "rawMeters": 40,
+            "meanError": 6.5648325954900635,
+            "roundaboutSegs": 16,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "12"
+    },
+    {
+      "line": "Тб14",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 29,
+          "tripCount": 89,
+          "stops": 5,
+          "lengthKm": 7.62,
+          "stats": {
+            "observations": 137,
+            "matched": 137,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 9.446758754417697,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 87,
+          "stops": 5,
+          "lengthKm": 6.92,
+          "stats": {
+            "observations": 147,
+            "matched": 147,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.8539630575638295,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "14"
+    },
+    {
+      "line": "Тб15",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 11,
+          "tripCount": 35,
+          "stops": 5,
+          "lengthKm": 5.73,
+          "stats": {
+            "observations": 222,
+            "matched": 222,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.162552672989325,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 37,
+          "stops": 4,
+          "lengthKm": 5.01,
+          "stats": {
+            "observations": 165,
+            "matched": 165,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.2690208561938294,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "15"
+    },
+    {
+      "line": "Тб16",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 29,
+          "tripCount": 101,
+          "stops": 4,
+          "lengthKm": 10.93,
+          "stats": {
+            "observations": 387,
+            "matched": 387,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.338111545145516,
+            "roundaboutSegs": 12,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 111,
+          "stops": 4,
+          "lengthKm": 10.99,
+          "stats": {
+            "observations": 349,
+            "matched": 349,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.948300775975513,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "16"
+    },
+    {
+      "line": "Тб17",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 23,
+          "tripCount": 82,
+          "stops": 4,
+          "lengthKm": 6.47,
+          "stats": {
+            "observations": 129,
+            "matched": 129,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.285745429893591,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 82,
+          "stops": 4,
+          "lengthKm": 6.85,
+          "stats": {
+            "observations": 191,
+            "matched": 191,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.0621644214151384,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "17"
+    },
+    {
+      "line": "Тб18",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 49,
+          "tripCount": 117,
+          "stops": 5,
+          "lengthKm": 11.73,
+          "stats": {
+            "observations": 370,
+            "matched": 370,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.3077106271820504,
+            "roundaboutSegs": 18,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 118,
+          "stops": 4,
+          "lengthKm": 11.97,
+          "stats": {
+            "observations": 277,
+            "matched": 277,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.784202100224501,
+            "roundaboutSegs": 2,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "18"
+    },
+    {
+      "line": "Тб19",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 17,
+          "tripCount": 80,
+          "stops": 4,
+          "lengthKm": 10,
+          "stats": {
+            "observations": 201,
+            "matched": 201,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.770997365577403,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 80,
+          "stops": 4,
+          "lengthKm": 9.74,
+          "stats": {
+            "observations": 201,
+            "matched": 201,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.156649822548577,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "19"
+    },
+    {
+      "line": "Тб22к",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 13,
+          "tripCount": 58,
+          "stops": 5,
+          "lengthKm": 8.86,
+          "stats": {
+            "observations": 171,
+            "matched": 171,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.220955966205653,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 54,
+          "stops": 5,
+          "lengthKm": 8.89,
+          "stats": {
+            "observations": 201,
+            "matched": 201,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.8350360268846453,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "22к"
+    },
+    {
+      "line": "Тб23Д",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 13,
+          "tripCount": 64,
+          "stops": 4,
+          "lengthKm": 9.85,
+          "stats": {
+            "observations": 111,
+            "matched": 111,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 9.49887405288483,
+            "roundaboutSegs": 12,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 70,
+          "stops": 4,
+          "lengthKm": 10.27,
+          "stats": {
+            "observations": 172,
+            "matched": 172,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.011719819750873,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "23Д"
+    },
+    {
+      "line": "Тб24",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 27,
+          "tripCount": 92,
+          "stops": 4,
+          "lengthKm": 9.31,
+          "stats": {
+            "observations": 355,
+            "matched": 355,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.895960774002691,
+            "roundaboutSegs": 63,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 93,
+          "stops": 4,
+          "lengthKm": 9.22,
+          "stats": {
+            "observations": 406,
+            "matched": 406,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.9752160621874912,
+            "roundaboutSegs": 64,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "24"
+    },
+    {
+      "line": "Тб25",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 23,
+          "tripCount": 100,
+          "stops": 3,
+          "lengthKm": 8.32,
+          "stats": {
+            "observations": 324,
+            "matched": 324,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.4940419830604688,
+            "roundaboutSegs": 32,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 92,
+          "stops": 3,
+          "lengthKm": 7.66,
+          "stats": {
+            "observations": 262,
+            "matched": 262,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.217917027031703,
+            "roundaboutSegs": 23,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "25"
+    },
+    {
+      "line": "Тб26",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 13,
+          "tripCount": 89,
+          "stops": 3,
+          "lengthKm": 7.68,
+          "stats": {
+            "observations": 138,
+            "matched": 138,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.642918175070187,
+            "roundaboutSegs": 25,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 83,
+          "stops": 4,
+          "lengthKm": 7.79,
+          "stats": {
+            "observations": 166,
+            "matched": 166,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.276975670371428,
+            "roundaboutSegs": 27,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "26"
+    },
+    {
+      "line": "Тб27",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 49,
+          "tripCount": 145,
+          "stops": 6,
+          "lengthKm": 13.06,
+          "stats": {
+            "observations": 206,
+            "matched": 206,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.255380031999791,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 139,
+          "stops": 6,
+          "lengthKm": 12.87,
+          "stats": {
+            "observations": 216,
+            "matched": 216,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.557830804280381,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "27"
+    },
+    {
+      "line": "Тб28Д",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 19,
+          "tripCount": 60,
+          "stops": 4,
+          "lengthKm": 10.19,
+          "stats": {
+            "observations": 157,
+            "matched": 157,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.98393960885023,
+            "roundaboutSegs": 13,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 61,
+          "stops": 4,
+          "lengthKm": 10.64,
+          "stats": {
+            "observations": 188,
+            "matched": 188,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 11.791830276532725,
+            "roundaboutSegs": 13,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "28Д"
+    },
+    {
+      "line": "Тб29",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 53,
+          "tripCount": 61,
+          "stops": 5,
+          "lengthKm": 14.44,
+          "stats": {
+            "observations": 184,
+            "matched": 184,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.970827655650572,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 61,
+          "stops": 5,
+          "lengthKm": 15.31,
+          "stats": {
+            "observations": 306,
+            "matched": 306,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.162233037211107,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "29"
+    },
+    {
+      "line": "Тб30",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 39,
+          "tripCount": 101,
+          "stops": 8,
+          "lengthKm": 23.29,
+          "stats": {
+            "observations": 697,
+            "matched": 697,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.011488228811558,
+            "roundaboutSegs": 22,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 90,
+          "stops": 8,
+          "lengthKm": 23.25,
+          "stats": {
+            "observations": 628,
+            "matched": 628,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.664289440103708,
+            "roundaboutSegs": 22,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "30"
+    },
+    {
+      "line": "Тб31Д",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 57,
+          "tripCount": 92,
+          "stops": 7,
+          "lengthKm": 22.24,
+          "stats": {
+            "observations": 472,
+            "matched": 472,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.672769550640336,
+            "roundaboutSegs": 29,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 107,
+          "stops": 7,
+          "lengthKm": 22.88,
+          "stats": {
+            "observations": 503,
+            "matched": 503,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.435029885477336,
+            "roundaboutSegs": 15,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "31Д"
+    },
+    {
+      "line": "Тб32",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 17,
+          "tripCount": 88,
+          "stops": 3,
+          "lengthKm": 6.25,
+          "stats": {
+            "observations": 182,
+            "matched": 182,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.060144133003196,
+            "roundaboutSegs": 40,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 94,
+          "stops": 3,
+          "lengthKm": 5.93,
+          "stats": {
+            "observations": 248,
+            "matched": 248,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.493280013278552,
+            "roundaboutSegs": 30,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "32"
+    },
+    {
+      "line": "Тб33",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 27,
+          "tripCount": 67,
+          "stops": 5,
+          "lengthKm": 12.09,
+          "stats": {
+            "observations": 438,
+            "matched": 438,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.2198678831071685,
+            "roundaboutSegs": 3,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 77,
+          "stops": 6,
+          "lengthKm": 13.35,
+          "stats": {
+            "observations": 400,
+            "matched": 400,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.717948962153262,
+            "roundaboutSegs": 36,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "33"
+    },
+    {
+      "line": "Тб34",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 9,
+          "tripCount": 42,
+          "stops": 4,
+          "lengthKm": 9.78,
+          "stats": {
+            "observations": 429,
+            "matched": 429,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.4190603436890212,
+            "roundaboutSegs": 64,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 42,
+          "stops": 5,
+          "lengthKm": 10.67,
+          "stats": {
+            "observations": 410,
+            "matched": 410,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.822556088893277,
+            "roundaboutSegs": 77,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "34"
+    },
+    {
+      "line": "Тб35",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 31,
+          "tripCount": 76,
+          "stops": 5,
+          "lengthKm": 18.39,
+          "stats": {
+            "observations": 474,
+            "matched": 474,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.7900123730869892,
+            "roundaboutSegs": 27,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 74,
+          "stops": 5,
+          "lengthKm": 18.1,
+          "stats": {
+            "observations": 454,
+            "matched": 454,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.704592170457971,
+            "roundaboutSegs": 25,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "35"
+    },
+    {
+      "line": "Тб37",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 21,
+          "tripCount": 96,
+          "stops": 4,
+          "lengthKm": 11.17,
+          "stats": {
+            "observations": 340,
+            "matched": 340,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.89712127229012,
+            "roundaboutSegs": 49,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 102,
+          "stops": 4,
+          "lengthKm": 11.51,
+          "stats": {
+            "observations": 321,
+            "matched": 321,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.6881136839279156,
+            "roundaboutSegs": 30,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "37"
+    },
+    {
+      "line": "Тб38",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 33,
+          "tripCount": 118,
+          "stops": 5,
+          "lengthKm": 6.95,
+          "stats": {
+            "observations": 245,
+            "matched": 245,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.1862086000152625,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 111,
+          "stops": 3,
+          "lengthKm": 6.7,
+          "stats": {
+            "observations": 268,
+            "matched": 268,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.7121255753086704,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "38"
+    },
+    {
+      "line": "Тб39",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 9,
+          "tripCount": 56,
+          "stops": 3,
+          "lengthKm": 6.02,
+          "stats": {
+            "observations": 143,
+            "matched": 143,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.406450074630983,
+            "roundaboutSegs": 15,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 55,
+          "stops": 3,
+          "lengthKm": 5.94,
+          "stats": {
+            "observations": 209,
+            "matched": 209,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.587965877562803,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "39"
+    },
+    {
+      "line": "Тб40",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 41,
+          "tripCount": 141,
+          "stops": 5,
+          "lengthKm": 8.84,
+          "stats": {
+            "observations": 366,
+            "matched": 366,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.9695359994081336,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 141,
+          "stops": 3,
+          "lengthKm": 8.84,
+          "stats": {
+            "observations": 367,
+            "matched": 367,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.18225777041429,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "40"
+    },
+    {
+      "line": "Тб40к",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 9,
+          "tripCount": 10,
+          "stops": 4,
+          "lengthKm": 8.04,
+          "stats": {
+            "observations": 327,
+            "matched": 327,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.9590860851339365,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 10,
+          "stops": 3,
+          "lengthKm": 8.8,
+          "stats": {
+            "observations": 361,
+            "matched": 361,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.416995327358869,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "40к"
+    },
+    {
+      "line": "Тб41",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 21,
+          "tripCount": 139,
+          "stops": 3,
+          "lengthKm": 5.83,
+          "stats": {
+            "observations": 273,
+            "matched": 273,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.7601822376837806,
+            "roundaboutSegs": 27,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 139,
+          "stops": 3,
+          "lengthKm": 4.46,
+          "stats": {
+            "observations": 222,
+            "matched": 222,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.6750142595175115,
+            "roundaboutSegs": 7,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "41"
+    },
+    {
+      "line": "Тб42",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 21,
+          "tripCount": 90,
+          "stops": 6,
+          "lengthKm": 12.63,
+          "stats": {
+            "observations": 305,
+            "matched": 305,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.9644512198611377,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 88,
+          "stops": 7,
+          "lengthKm": 14.84,
+          "stats": {
+            "observations": 348,
+            "matched": 348,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 20,
+            "meanError": 4.176185187933402,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "42"
+    },
+    {
+      "line": "Тб43",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 25,
+          "tripCount": 64,
+          "stops": 6,
+          "lengthKm": 17.48,
+          "stats": {
+            "observations": 557,
+            "matched": 557,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.432561128568237,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 63,
+          "stops": 6,
+          "lengthKm": 18.48,
+          "stats": {
+            "observations": 583,
+            "matched": 583,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.6203458262168455,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "43"
+    },
+    {
+      "line": "Тб44",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 9,
+          "tripCount": 56,
+          "stops": 5,
+          "lengthKm": 7.98,
+          "stats": {
+            "observations": 320,
+            "matched": 320,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.556644136676652,
+            "roundaboutSegs": 50,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 56,
+          "stops": 5,
+          "lengthKm": 7.82,
+          "stats": {
+            "observations": 283,
+            "matched": 283,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.066527317104708,
+            "roundaboutSegs": 51,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "44"
+    },
+    {
+      "line": "Тб45",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 43,
+          "tripCount": 95,
+          "stops": 4,
+          "lengthKm": 6.62,
+          "stats": {
+            "observations": 150,
+            "matched": 150,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 9.064107432619329,
+            "roundaboutSegs": 41,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 98,
+          "stops": 4,
+          "lengthKm": 6.86,
+          "stats": {
+            "observations": 173,
+            "matched": 173,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.312872961878173,
+            "roundaboutSegs": 39,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "45"
+    },
+    {
+      "line": "Тб47",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 13,
+          "tripCount": 55,
+          "stops": 5,
+          "lengthKm": 13.38,
+          "stats": {
+            "observations": 447,
+            "matched": 447,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.0836063949548262,
+            "roundaboutSegs": 49,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 61,
+          "stops": 6,
+          "lengthKm": 12.79,
+          "stats": {
+            "observations": 480,
+            "matched": 480,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.4696181703977005,
+            "roundaboutSegs": 47,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "47"
+    },
+    {
+      "line": "Тб50",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 51,
+          "tripCount": 93,
+          "stops": 6,
+          "lengthKm": 20.85,
+          "stats": {
+            "observations": 677,
+            "matched": 677,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.677677511808,
+            "roundaboutSegs": 47,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 94,
+          "stops": 7,
+          "lengthKm": 19.82,
+          "stats": {
+            "observations": 555,
+            "matched": 555,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.286071816277851,
+            "roundaboutSegs": 22,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "50"
+    },
+    {
+      "line": "Тб50к",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 29,
+          "tripCount": 98,
+          "stops": 5,
+          "lengthKm": 11.65,
+          "stats": {
+            "observations": 354,
+            "matched": 354,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.759558820808609,
+            "roundaboutSegs": 22,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 104,
+          "stops": 5,
+          "lengthKm": 11.57,
+          "stats": {
+            "observations": 348,
+            "matched": 348,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.3797203432589256,
+            "roundaboutSegs": 22,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "50к"
+    },
+    {
+      "line": "Тм1",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 165,
+          "tripCount": 260,
+          "stops": 4,
+          "lengthKm": 12.07,
+          "stats": {
+            "observations": 116,
+            "matched": 116,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.156303126012883,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 260,
+          "stops": 4,
+          "lengthKm": 11.65,
+          "stats": {
+            "observations": 137,
+            "matched": 137,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.839063411385589,
+            "roundaboutSegs": 0,
+            "extStart": 102,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "1"
+    },
+    {
+      "line": "Тм2",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 21,
+          "tripCount": 34,
+          "stops": 3,
+          "lengthKm": 5.33,
+          "stats": {
+            "observations": 248,
+            "matched": 248,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.052666856702722,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 34,
+          "stops": 3,
+          "lengthKm": 5.45,
+          "stats": {
+            "observations": 219,
+            "matched": 219,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.483955179242086,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "2"
+    },
+    {
+      "line": "Тм3",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 109,
+          "tripCount": 210,
+          "stops": 4,
+          "lengthKm": 9.29,
+          "stats": {
+            "observations": 212,
+            "matched": 212,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.151820591019797,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 210,
+          "stops": 4,
+          "lengthKm": 8.97,
+          "stats": {
+            "observations": 280,
+            "matched": 280,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.5458024680403155,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "3"
+    },
+    {
+      "line": "Тм8",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 65,
+          "tripCount": 184,
+          "stops": 5,
+          "lengthKm": 11.16,
+          "stats": {
+            "observations": 273,
+            "matched": 272,
+            "noCandidates": 1,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 8.9818433896316,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 195,
+          "stops": 6,
+          "lengthKm": 11.24,
+          "stats": {
+            "observations": 216,
+            "matched": 214,
+            "noCandidates": 2,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 11.249130342103134,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "8"
+    },
+    {
+      "line": "Тм11",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 17,
+          "tripCount": 68,
+          "stops": 4,
+          "lengthKm": 9.2,
+          "stats": {
+            "observations": 161,
+            "matched": 161,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.217900893527356,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 70,
+          "stops": 4,
+          "lengthKm": 9.19,
+          "stats": {
+            "observations": 165,
+            "matched": 165,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.441871021249192,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "11"
+    },
+    {
+      "line": "Тм12",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 37,
+          "tripCount": 103,
+          "stops": 6,
+          "lengthKm": 19.25,
+          "stats": {
+            "observations": 493,
+            "matched": 465,
+            "noCandidates": 28,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.220442227223026,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 98,
+          "stops": 6,
+          "lengthKm": 19,
+          "stats": {
+            "observations": 444,
+            "matched": 425,
+            "noCandidates": 19,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.418827241540647,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "12"
+    },
+    {
+      "line": "Тм14",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 35,
+          "tripCount": 90,
+          "stops": 5,
+          "lengthKm": 12.98,
+          "stats": {
+            "observations": 326,
+            "matched": 326,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.436191053198755,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 93,
+          "stops": 5,
+          "lengthKm": 12.86,
+          "stats": {
+            "observations": 359,
+            "matched": 359,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 9.4080926472501,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "14"
+    },
+    {
+      "line": "Тм15",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 35,
+          "tripCount": 88,
+          "stops": 5,
+          "lengthKm": 12.42,
+          "stats": {
+            "observations": 260,
+            "matched": 260,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 8.357112681472548,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 91,
+          "stops": 5,
+          "lengthKm": 12.36,
+          "stats": {
+            "observations": 349,
+            "matched": 349,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 8.989698063499413,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "255",
+          "headsign": "",
+          "variants": 20,
+          "tripCount": 1,
+          "stops": 2,
+          "lengthKm": 0,
+          "stats": {
+            "observations": 2,
+            "matched": 1,
+            "noCandidates": 1,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "15"
+    },
+    {
+      "line": "Тм16",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 25,
+          "tripCount": 93,
+          "stops": 5,
+          "lengthKm": 11.03,
+          "stats": {
+            "observations": 266,
+            "matched": 266,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.093938383627263,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 89,
+          "stops": 5,
+          "lengthKm": 10.76,
+          "stats": {
+            "observations": 225,
+            "matched": 225,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.449272247167223,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "16"
+    },
+    {
+      "line": "Тм17",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 27,
+          "tripCount": 55,
+          "stops": 5,
+          "lengthKm": 17.13,
+          "stats": {
+            "observations": 279,
+            "matched": 252,
+            "noCandidates": 27,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 9.635648884677874,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 50,
+          "stops": 5,
+          "lengthKm": 16.75,
+          "stats": {
+            "observations": 346,
+            "matched": 296,
+            "noCandidates": 50,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 8.677283092368803,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "17"
+    },
+    {
+      "line": "Тм18",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 17,
+          "tripCount": 92,
+          "stops": 3,
+          "lengthKm": 4.96,
+          "stats": {
+            "observations": 166,
+            "matched": 166,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.631656485706821,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 92,
+          "stops": 3,
+          "lengthKm": 5.37,
+          "stats": {
+            "observations": 225,
+            "matched": 225,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.327682564625421,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "18"
+    },
+    {
+      "line": "Тм19",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 11,
+          "tripCount": 35,
+          "stops": 4,
+          "lengthKm": 8.53,
+          "stats": {
+            "observations": 213,
+            "matched": 213,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.320325447819643,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 34,
+          "stops": 4,
+          "lengthKm": 8.78,
+          "stats": {
+            "observations": 151,
+            "matched": 151,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.264606010755076,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "19"
+    },
+    {
+      "line": "Тм22к",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 33,
+          "tripCount": 114,
+          "stops": 4,
+          "lengthKm": 9.26,
+          "stats": {
+            "observations": 85,
+            "matched": 85,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.703707126356839,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 114,
+          "stops": 4,
+          "lengthKm": 9.39,
+          "stats": {
+            "observations": 93,
+            "matched": 93,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 12.21386296196141,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "22к"
+    },
+    {
+      "line": "Тм23к",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 15,
+          "tripCount": 58,
+          "stops": 3,
+          "lengthKm": 6.95,
+          "stats": {
+            "observations": 75,
+            "matched": 75,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 21.301180820812775,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 56,
+          "stops": 3,
+          "lengthKm": 6.72,
+          "stats": {
+            "observations": 134,
+            "matched": 134,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 20.33704141260977,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "23к"
+    },
+    {
+      "line": "Тм25",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 19,
+          "tripCount": 63,
+          "stops": 4,
+          "lengthKm": 7.66,
+          "stats": {
+            "observations": 148,
+            "matched": 148,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.291256065938346,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 63,
+          "stops": 4,
+          "lengthKm": 7.69,
+          "stats": {
+            "observations": 196,
+            "matched": 196,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.6471445017717903,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "25"
+    },
+    {
+      "line": "Тм29",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 39,
+          "tripCount": 118,
+          "stops": 4,
+          "lengthKm": 10.58,
+          "stats": {
+            "observations": 268,
+            "matched": 267,
+            "noCandidates": 1,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 10.549905815843328,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 120,
+          "stops": 5,
+          "lengthKm": 10.52,
+          "stats": {
+            "observations": 193,
+            "matched": 192,
+            "noCandidates": 1,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 10.934214129891034,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "29"
+    },
+    {
+      "line": "Тм33к",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "",
+          "variants": 41,
+          "tripCount": 174,
+          "stops": 3,
+          "lengthKm": 7.58,
+          "stats": {
+            "observations": 78,
+            "matched": 78,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 12.628743102083245,
+            "roundaboutSegs": 0,
+            "extStart": 92,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "",
+          "variants": 1,
+          "tripCount": 176,
+          "stops": 4,
+          "lengthKm": 7.62,
+          "stats": {
+            "observations": 134,
+            "matched": 134,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 9.62310775247512,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "label": "33к"
+    }
+  ]
+}

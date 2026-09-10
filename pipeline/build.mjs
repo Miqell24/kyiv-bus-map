@@ -24,6 +24,7 @@ const NAME_FIX = {};
 // the HMM bridges by routing instead of interpolating observations, which would
 // fabricate straight-line detours through side streets.
 const GAP_MIN = 300;
+const VERBOSE_SPURS = process.env.BUILD_SPUR_LOG === '1';
 // m — a pole closer than this to the matched axis is inside the track corridor:
 // its coordinate carries no usable side signal and the half-disc falls back to
 // the right-hand rule (see the stop pass). Named after the case that set it:
@@ -228,6 +229,71 @@ function mergeRuns(all) {
     }
   }
   return merged;
+}
+
+// Segment index for a matched path: the graph segment each consecutive pair of
+// path vertices IS, looked up on rounded coordinates (the path is built out of
+// graph nodes, so the pairs match exactly).
+function pairIndex(graph) {
+  if (graph._pairIdx) return graph._pairIdx;
+  const m = new Map();
+  const k = (x1, y1, x2, y2) => `${x1.toFixed(1)}|${y1.toFixed(1)}|${x2.toFixed(1)}|${y2.toFixed(1)}`;
+  graph.segs.forEach((g, i) => {
+    m.set(k(g.ax, g.ay, g.bx, g.by), i);
+    m.set(k(g.bx, g.by, g.ax, g.ay), i);
+  });
+  graph._pairIdx = m;
+  return m;
+}
+function segsOfPath(graph, coords) {
+  const idx = pairIndex(graph);
+  const k = (x1, y1, x2, y2) => `${x1.toFixed(1)}|${y1.toFixed(1)}|${x2.toFixed(1)}|${y2.toFixed(1)}`;
+  const out = new Set();
+  for (let i = 0; i + 1 < coords.length; i++) {
+    const si = idx.get(k(coords[i][0], coords[i][1], coords[i + 1][0], coords[i + 1][1]));
+    if (si !== undefined) out.add(si);
+  }
+  return out;
+}
+
+// Out-and-back stubs — the "ogonki". A matched path that leaves the corridor,
+// touches a point and comes straight back along the same segments is almost
+// never a service pattern: it is the matcher reaching for an observation that
+// sits off the carriageway — a pole on the far side of a junction pulls a
+// stub out of the route (user report: line 2 west of Borshchahivska). The
+// family's trim (Timișoara, Belgrade, Naples…), ported from Berlin's copy.
+//
+// m of detour; a longer one is a service pattern. Naples caps this at 120,
+// Belgrade needs 300: county lines detour deep into villages, and those
+// excursions all serve a stop, which protects them.
+const SPUR_MAX = 300;
+const SPUR_STOP = 30;    // m — how close a stop must be to count as served
+const SPUR_WIN = 40;     // points to look ahead for the return to a visited point
+function trimSpurs(coords, stopsXY, removed) {
+  const same = (a, b) => Math.hypot(a[0] - b[0], a[1] - b[1]) < 0.5;
+  const pathDist = (p, line) => (line.length > 1 ? nearestOnPolyline(p[0], p[1], line).d : Infinity);
+  let out = coords.slice();
+  for (let i = 0; i + 2 < out.length; i++) {
+    let j = -1;
+    for (let k = Math.min(i + SPUR_WIN, out.length - 1); k > i + 1; k--) {
+      if (same(out[i], out[k])) { j = k; break; }
+    }
+    if (j < 0) continue;
+    let len = 0;
+    for (let t = i; t < j; t++) len += Math.hypot(out[t + 1][0] - out[t][0], out[t + 1][1] - out[t][1]);
+    if (len > 2 * SPUR_MAX) continue;                      // out and back = twice the detour
+    const spur = out.slice(i, j + 1);
+    const rest = [...out.slice(0, i + 1), ...out.slice(j)];
+    const serves = stopsXY.some((st) => {
+      const ds = pathDist(st, spur.slice(1, -1).length ? spur : []);
+      return ds < SPUR_STOP && ds < pathDist(st, rest) - 10;
+    });
+    if (serves) continue;
+    removed.push(spur);
+    out = rest;
+    i = Math.max(-1, i - 1);
+  }
+  return out;
 }
 
 async function processMode(cfg) {
@@ -636,6 +702,8 @@ async function processMode(cfg) {
   // past U-turn tips / route ends)
   const segIv = new Map();
   const rawRunsAll = [];
+  // per-run detail is opt-in (BUILD_SPUR_LOG=1); the mode reports a total
+  let spurTrims = 0, spurStubs = 0;
   for (const r of reps) {
     const xy = r.shapeLatLon.map(([lat, lon]) => proj.toXY(lat, lon));
     let sampled, opts;
@@ -681,6 +749,52 @@ async function processMode(cfg) {
     if (ext) log(`  terminal repair ${r.line}/${r.dir}: ` +
       `${ext.head ? `${ext.head} stop(s) before the shape (+${ext.startM} m) ` : ''}` +
       `${ext.tail ? `${ext.tail} stop(s) past the shape (+${ext.endM} m)` : ''}`);
+    // cut the out-and-back stubs before anything downstream sees them: the
+    // stroke layer, the number rows and the length all come off these
+    const spurs = [];
+    const trimmed = trimSpurs(res.coords, stopsXY, spurs);
+    if (spurs.length) {
+      res.coords = trimmed;
+      // a segment travelled ONLY inside a cut excursion leaves the streets layer
+      // too — otherwise the tail stays drawn although the line no longer runs
+      // there. Segments the trimmed path still uses are never touched, so a
+      // corridor can never be broken open by this.
+      const kept = segsOfPath(graph, trimmed);
+      let dropped = 0;
+      for (const sp of spurs) {
+        for (const si of segsOfPath(graph, sp)) {
+          if (!kept.has(si) && res.usedSegs.delete(si)) { res.usedIv.delete(si); dropped++; }
+        }
+      }
+      // …and a geometric sweep behind it. The index lookup above only finds a
+      // segment when the excursion's vertices ARE graph nodes, which silently
+      // fails for a spur that runs inside one segment or over vertices the
+      // terminal repair inserted. So every segment still marked used is
+      // re-checked against the FINAL path: its ridden interval (usedIv — a
+      // partly ridden segment is a run end or a bridge entry) must lie ON the
+      // trimmed path, both ends and the middle within 5 m. A segment the line
+      // still travels sits at 0 m from it (the path is built of graph nodes),
+      // so a corridor can never be broken open by this; a stub's far end is
+      // metres away and goes. (Berlin's rule, 10.09.2026: the earlier
+      // midpoint-within-40 m test let every stub under ~80 m survive.)
+      const COVER = 5;
+      const covered = (si) => {
+        const g = graph.segs[si];
+        const iv = res.usedIv.get(si) || [0, 1];
+        for (const t of [iv[0], (iv[0] + iv[1]) / 2, iv[1]]) {
+          const x = g.ax + (g.bx - g.ax) * t, y = g.ay + (g.by - g.ay) * t;
+          if (nearestOnPolyline(x, y, trimmed).d > COVER) return false;
+        }
+        return true;
+      };
+      let swept = 0;
+      for (const si of [...res.usedSegs]) {
+        if (!covered(si)) { res.usedSegs.delete(si); res.usedIv.delete(si); swept++; }
+      }
+      spurTrims++; spurStubs += spurs.length;
+      if (VERBOSE_SPURS) log(`  spur trim ${r.line}/${r.dir}: ${spurs.length} dead-end stub(s), ` +
+          `${dropped} segment(s) dropped${swept ? `, ${swept} swept by distance` : ''}`);
+    }
     r.matchedXY = res.coords;
     r.usedSegs = res.usedSegs;
     r.stats = res.stats;
@@ -720,6 +834,8 @@ async function processMode(cfg) {
       log(`  BREAK ${r.line}/${r.dir} @ ${lat.toFixed(5)},${lon.toFixed(5)}`);
     }
   }
+  if (spurTrims) log(`spur trim: ${spurStubs} dead-end stub(s) cut from ${spurTrims} run(s)` +
+    `${VERBOSE_SPURS ? '' : ' — BUILD_SPUR_LOG=1 for the per-run detail'}`);
   reps = reps.filter((r) => r.matchedXY);
 
   // Trams take the IDENTICAL path as buses: we draw every traversed segment of

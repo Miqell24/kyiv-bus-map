@@ -47,5 +47,7 @@ have returned, node ids included.
 writes GeoJSON to `data/out/`; `npm run lines` adds the line-by-line view.
 `npm run serve` hosts the map at <http://localhost:8174>.
 
+Out-and-back stubs are cut after matching (`trimSpurs`, ported from the family on 10.09.2026): a path that leaves the corridor, touches a point and comes straight back along the same segments is the matcher reaching for a pole that sits off the carriageway, not a service pattern — line 2 west of Borshchahivska drew a comb of them (user report). An excursion up to 300 m out is cut unless a stop is served only by it; the strokes of segments travelled only inside a cut excursion leave the streets layer too.
+
 Data: Портал даних Києва ·
 base map © OpenFreeMap / OpenMapTiles / OpenStreetMap contributors.
